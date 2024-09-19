@@ -1,0 +1,38 @@
+body {
+    color: white;
+    background: purple;
+    margin: 12px;
+    font-family: "Ewert", serif;
+}
+
+header {
+    border-bottom: solid 1px rgb(255,255, 255);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(255,255,255);
+}
+
+
+section {
+    background: rgb(102,51,153);
+    padding-bottom: 80px;
+    padding-top: 15px;
+    display:flex;
+}
+
+
+.chamada-texto {
+    margin-right: 5%;
+    color:aquamarine;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    margin-bottom: 100px;
+}
